@@ -10,3 +10,36 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.card {
+    border: none;
+    width: 130px;
+    height: 400px;
+}
+.luces {
+    width: 130px;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.luces div {
+    margin-top: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+.rojo {
+    background-color: red;
+}
+.amarillo {
+    background-color: yellow;
+}
+.verde {
+    background-color: green;
+}
+.active {
+    box-shadow: 0px 0px 50px 20px white;
+}
